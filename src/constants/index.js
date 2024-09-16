@@ -17,7 +17,6 @@ import {
     marketplace,
     join,
     oxminer,
-    threejs,
     bootstrap,
     mytravel,
     stellarburger,
@@ -105,10 +104,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "figma",

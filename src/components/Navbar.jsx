@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
@@ -19,7 +19,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={logo} alt='Logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>&nbsp;<span className='sm:block hidden font-thin'>|&nbsp;&nbsp;Dev</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>&nbsp;<span className='sm:block font-thin'>|&nbsp;&nbsp;Dev</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link, index) => (
